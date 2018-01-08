@@ -50,19 +50,33 @@ var c = canvas.getContext('2d');//contact
 
 c.beginPath();
 c.arc(200, 200, 30, 0, Math.PI * 2, false);
-c.strokeStyle = "violet";
+c.strokeStyle = "red";
 c.stroke();
 
-var x = 200;
+var x = Math.random() * innerWidth;
+var y = Math.random() * innerHeight;
+var dx = (Math.random() - 0.5) * 8;
+var dy = (Math.random() - 0.5) * 8;
+var radius = 30;
 function animate() {
     requestAnimationFrame(animate);
+    c.clearRect(0, 0, innerWidth, innerHeight);
 
     c.beginPath();
-    c.arc(x, 200, 30, 0, Math.PI * 2, false);
+    c.arc(x, y, 30, 0, Math.PI * 2, false);
     c.strokeStyle = "violet";
     c.stroke();
 
-    x += 1; //żeby kółko przemieszczało się
+    if (x + radius > innerWidth || x - radius < 0) {
+        dx = -dx;
+    }
+    if (y + radius > innerWidth || y - radius < 0) {
+        dy = -dy;
+    }
+
+
+    x += dx; //żeby kółko przemieszczało się
+    y += dy;
 }
 
 animate();
