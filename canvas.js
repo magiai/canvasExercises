@@ -63,7 +63,15 @@ function Circle(x, y, dx, dy, radius) {
         c.strokeStyle = "blue";
         c.stroke();
         c.fill();
-        c.fillStyle = "lavender";
+
+        function randomColor() {
+        var r = 255*Math.random()|0;
+        var g = 255*Math.random()|0;
+        var b = 255*Math.random()|0;
+        return 'rgb(' + r + ',' + g + ',' + b + ')';
+    };
+
+        c.fillStyle = randomColor();
     }
 
     this.update = function () {
