@@ -11,6 +11,12 @@ var mouse = {
 };
 
 var maxRadius = 40;
+var minRadius = 10;
+
+var colorArray = [
+  '#420C1D', '#AF0000', '#051934', '#FF4908', '#721733'
+];
+
 
 window.addEventListener('mousemove', function(event) {
     mouse.x = event.x;
@@ -23,24 +29,25 @@ function Circle(x, y, dx, dy, radius) {
     this.dx = dx;
     this.dy = dy;
     this.radius = radius;
+    this.color = colorArray[Math.floor(Math.random() *
+        colorArray.length)];
 
     this.draw = function() {
 
         c.beginPath();
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-        c.strokeStyle = "blue";
         c.stroke();
         c.fill();
 
-        function randomColor() {
-        var r = 255*Math.random()|0;
-        var g = 10*Math.random()|0;
-        var b = 255*Math.random()|0;
+        // function randomColor() {
+        // var r = 255*Math.random()|0;
+        // var g = 10*Math.random()|0;
+        // var b = 255*Math.random()|0;
+        //
+        // return 'rgb(' + r + ',' + g + ',' + b + ')';
+    // };
 
-        return 'rgb(' + r + ',' + g + ',' + b + ')';
-    };
-
-        c.fillStyle = randomColor();
+        c.fillStyle = this.color;
     }
 
     this.update = function () {
@@ -63,7 +70,7 @@ function Circle(x, y, dx, dy, radius) {
           if (this.radius < maxRadius) {
               this.radius += 1;
           }
-        } else if (this.radius > 2) {
+        } else if (this.radius > minRadius) {
             this.radius -=1;
         }
         this.draw();
