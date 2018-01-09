@@ -11,7 +11,8 @@ var mouse = {
 };
 
 var maxRadius = 40;
-var minRadius = 10;
+// var minRadius = 2;
+var numberOfCircles = 500;
 
 var colorArray = [
   '#420C1D', '#AF0000', '#051934', '#FF4908', '#721733'
@@ -29,6 +30,7 @@ function Circle(x, y, dx, dy, radius) {
     this.dx = dx;
     this.dy = dy;
     this.radius = radius;
+    this.minRadius = radius;
     this.color = colorArray[Math.floor(Math.random() *
         colorArray.length)];
 
@@ -70,7 +72,7 @@ function Circle(x, y, dx, dy, radius) {
           if (this.radius < maxRadius) {
               this.radius += 1;
           }
-        } else if (this.radius > minRadius) {
+        } else if (this.radius > this.minRadius) {
             this.radius -=1;
         }
         this.draw();
@@ -80,8 +82,8 @@ function Circle(x, y, dx, dy, radius) {
 
 var circleArray = [];
 
-for (var i = 0; i < 100; i++) {
-    var radius = 30;
+for (var i = 0; i < numberOfCircles; i++) {
+    var radius = Math.random() * 3 + 1;
     var x = Math.random() * (innerWidth - radius * 2) + radius;
     var y = Math.random() * (innerHeight - radius * 2) + radius;
     var dx = (Math.random() - 0.5) * 3;
