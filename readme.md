@@ -1,7 +1,7 @@
 ## Animation
 
-Random red/blu/violet circles goint to the different directions with different velocity.
+Colorful circles going to the different directions with different velocity. They are growing bigger when mouse is over them.
 
 ### The look
 
-https://user-images.githubusercontent.com/31245275/34678864-a3f66e3e-f494-11e7-8cb6-09cb9204c95a.png
+https://user-images.githubusercontent.com/31245275/34747385-5d03f8e8-f598-11e7-934f-ee7a48cfa72d.jpg
