@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce88d8d-898f-4eb4-829a-7f97c6bbb79a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/exercise1/readme.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/exercise2/drawing curves/canvas.js" afterPath="$PROJECT_DIR$/exercise2/drawing curves/canvas.js" />
-      <change beforePath="$PROJECT_DIR$/exercise2/drawing curves/style.css" afterPath="$PROJECT_DIR$/exercise2/drawing curves/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise2/drawing curves/canvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="59">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise2/quadratic curves/canvas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -28,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/exercise2/drawing curves/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -53,6 +64,7 @@
         <option value="$PROJECT_DIR$/exercise2/complex shapes/canvas.js" />
         <option value="$PROJECT_DIR$/exercise2/drawing curves/style.css" />
         <option value="$PROJECT_DIR$/exercise2/drawing curves/canvas.js" />
+        <option value="$PROJECT_DIR$/exercise2/quadratic curves/canvas.js" />
       </list>
     </option>
   </component>
@@ -64,8 +76,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="890" />
-    <option name="y" value="685" />
+    <option name="x" value="848" />
+    <option name="y" value="122" />
     <option name="width" value="724" />
     <option name="height" value="775" />
   </component>
@@ -131,15 +143,15 @@
       <updated>1515415379408</updated>
       <workItem from="1515415380632" duration="9980000" />
       <workItem from="1515441818648" duration="9183000" />
-      <workItem from="1515592243290" duration="9377000" />
+      <workItem from="1515592243290" duration="10857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28540000" />
+    <option name="totallyTimeSpent" value="30020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="890" y="685" width="724" height="775" extended-state="0" />
+    <frame x="848" y="122" width="724" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -256,15 +268,23 @@
     <entry file="file://$PROJECT_DIR$/exercise2/drawing curves/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/drawing curves/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="59">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/quadratic curves/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>

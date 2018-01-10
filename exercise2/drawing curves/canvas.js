@@ -21,7 +21,7 @@ context.arc(300, 200, 100, 45 * radian, 180 * radian, false);
 context.stroke();
 
 context.beginPath();
-context.strokeStyle = "brown";
+context.strokeStyle = "green";
 context.lineWidth = 10;
-context.arc(300, 200, 100, 45 * radian, 120 * radian, true);
+context.arc(300, 200, 100, 45 * radian, 180 * radian, false);
 context.stroke();
