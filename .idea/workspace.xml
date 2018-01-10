@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce88d8d-898f-4eb4-829a-7f97c6bbb79a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/exercise2/canvas.js" afterPath="$PROJECT_DIR$/exercise2/canvas.js" />
-      <change beforePath="$PROJECT_DIR$/exercise2/style.css" afterPath="$PROJECT_DIR$/exercise2/style.css" />
+      <change beforePath="$PROJECT_DIR$/exercise2/complex shapes/canvas.js" afterPath="$PROJECT_DIR$/exercise2/complex shapes/canvas.js" />
+      <change beforePath="$PROJECT_DIR$/exercise2/complex shapes/style.css" afterPath="$PROJECT_DIR$/exercise2/complex shapes/style.css" />
+      <change beforePath="$PROJECT_DIR$/exercise2/shadows/canvas.js" afterPath="$PROJECT_DIR$/exercise2/shadows/canvas.js" />
+      <change beforePath="$PROJECT_DIR$/exercise2/shadows/style.css" afterPath="$PROJECT_DIR$/exercise2/shadows/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2/shadows/style.css">
+      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise2/complex shapes/canvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="231">
+              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise2/shadows/canvas.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise2/complex shapes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="40">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -49,6 +51,8 @@
         <option value="$PROJECT_DIR$/exercise2/style.css" />
         <option value="$PROJECT_DIR$/exercise2/shadows/style.css" />
         <option value="$PROJECT_DIR$/exercise2/shadows/canvas.js" />
+        <option value="$PROJECT_DIR$/exercise2/complex shapes/style.css" />
+        <option value="$PROJECT_DIR$/exercise2/complex shapes/canvas.js" />
       </list>
     </option>
   </component>
@@ -60,9 +64,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
-    <option name="y" value="103" />
-    <option name="width" value="878" />
+    <option name="x" value="908" />
+    <option name="y" value="738" />
+    <option name="width" value="560" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectView">
@@ -127,15 +131,15 @@
       <updated>1515415379408</updated>
       <workItem from="1515415380632" duration="9980000" />
       <workItem from="1515441818648" duration="9183000" />
-      <workItem from="1515592243290" duration="5587000" />
+      <workItem from="1515592243290" duration="7880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24750000" />
+    <option name="totallyTimeSpent" value="27043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="103" width="878" height="775" extended-state="0" />
+    <frame x="908" y="738" width="560" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -146,7 +150,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27089784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27089784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -219,16 +223,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/shadows/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/shadows/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/complex shapes/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/complex shapes/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding />
         </state>
       </provider>

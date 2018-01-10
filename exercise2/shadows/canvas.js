@@ -1,7 +1,11 @@
-window.onload = function () {
 
-    var canvas = document.getElementById("hello-world-canvas");
+    var canvas = document.querySelector('canvas');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
     var context = canvas.getContext("2d");
+
 
     context.beginPath();
     context.strokeStyle = "red";
@@ -18,11 +22,11 @@ window.onload = function () {
     context.strokeStyle = "red";
     context.lineWidth = 10;
     context.shadowColor = "black";
-    context.shadowOffsetX = 5;
+    context.shadowOffsetX = -10;
     context.shadowOffsetY = 5;
     context.shadowBlur = 5;
-    context.moveTo(150, 70);
-    context.lineTo(250, 80);
+    context.moveTo(350, 60);
+    context.lineTo(450, 60);
     context.stroke();
 
     context.beginPath();
@@ -30,7 +34,7 @@ window.onload = function () {
     context.lineWidth = 10;
     context.shadowColor = "black";
     context.shadowOffsetX = 5;
-    context.shadowOffsetY = 5;
+    context.shadowOffsetY = -10;
     context.shadowBlur = 5;
     context.moveTo(100, 200);
     context.lineTo(200, 200);
@@ -40,11 +44,11 @@ window.onload = function () {
     context.strokeStyle = "red";
     context.lineWidth = 10;
     context.shadowColor = "black";
-    context.shadowOffsetX = 5;
-    context.shadowOffsetY = 5;
+    context.shadowOffsetX = -15;
+    context.shadowOffsetY = -15;
     context.shadowBlur = 5;
     context.moveTo(350, 200);
     context.lineTo(450, 200);
     context.stroke();
 
-}
+
