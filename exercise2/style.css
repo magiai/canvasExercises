@@ -1,0 +1,12 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+#hello-world-canvas {
+    border: 1px solid black;
+    display: block;
+    width: 700px;
+    height: 700px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
