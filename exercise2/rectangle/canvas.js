@@ -1,15 +1,29 @@
-window.onload = function () {
+var canvas = document.querySelector('canvas');
 
-    var canvas = document.getElementById("hello-world-canvas");
-    var context = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-//violet rectangle
-context.fillStyle = "violet";
-context.fillRect(10,40,50,80);
+var context = canvas.getContext("2d");
 
-//green rectangle
+//context.rect(xCoordinate, yCoordinate, width, height);
+
+context.strokeStyle = "red";
+context.lineWidth = 11;
+context.lineJoin = "round";
 context.fillStyle = "green";
-context.fillRect(60,40,100,30);
+context.rect(50, 200, 200, 200);
+context.stroke();
+context.fill();
 
+//context.fillRect(xCoordinate, yCoordinate, width, height);
+context.fillStyle = "blue";
+context.fillRect(300, 200, 200, 200);
 
-}
+//context.strokeRect(xCoordinate, yCoordinate, width, height);
+context.lineWidth = 3;
+context.strokeStyle = "violet";
+context.lineJoin = "square";
+context.strokeRect(550, 200, 200, 200);
+
+//context.clearRect(xCoordinate, yCoordinate, width, height);
+context.clearRect(100, 100, 200, 200);
