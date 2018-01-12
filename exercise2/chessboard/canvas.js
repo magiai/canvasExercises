@@ -13,14 +13,16 @@ context.strokeRect(450, 100, 400, 400);
 
 for (var i = 1; i <= 8; i++) {
 
-    if (i % 2 === 0) {
-        context.fillStyle = "black";
-    } else {
-        context.fillStyle = "white";
-    }
-    context.fillRect(400 + i * 50, 100, 50, 50);
-}
+    for (var j = 1; j <= 8; j++) {
 
+        if ((i + j) % 2 === 0) {
+            context.fillStyle = "black";
+        } else {
+            context.fillStyle = "white";
+        }
+        context.fillRect(400 + i * 50, 50 + j * 50, 50, 50);
+    }
+}
 
 
 
