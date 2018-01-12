@@ -1,9 +1,6 @@
-window.onload = function () {
+var canvas = document.querySelector('canvas');
 
-    var canvas = document.getElementById("hello-world-canvas");
-    var context = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-
-}
-
-
+var context = canvas.getContext("2d");
