@@ -11,12 +11,19 @@
     context.strokeStyle = "orange";
     context.fillStyle = "orange";
     context.rect(400, 300, 300, 200);
-    context.shadowOffsetY = 10;
+    context.shadowOffsetY = 100;
     context.shadowOffsetX = 5;
     context.shadowColor = "black";
     context.shadowBlur = 5;
     context.stroke();
     context.fill();
+
+    context.beginPath();
+    context.strokeStyle = "blue";
+    context.fillStyle = "blue";
+    context.arc(900, 300, 150, 0 * (Math.PI / 180), 360 * (Math.PI / 180) );
+    context.fill();
+    context.stroke();
 
 
 
