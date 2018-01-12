@@ -7,7 +7,9 @@ var context = canvas.getContext("2d");
 
 var radian = Math.PI / 180;
 
+//first method
 context.beginPath();
+context.strokeStyle = "yellow";
 context.fillStyle = "yellow";
 context.moveTo(450, 450);
 context.lineTo(550, 520);
@@ -18,6 +20,21 @@ context.fill();
 
 context.beginPath();
 context.fillStyle = "black";
-context.moveTo(450, 350);
 context.arc(450, 350, 20, 0 * radian, 360 * radian, false);
+context.fill();
+
+//pacman method 2
+context.beginPath();
+context.fillStyle = "black";
+context.arc(900, 450, 200, 30 * radian, 220 * radian, true);
+context.fill();
+
+context.beginPath();
+context.fillStyle = "black";
+context.arc(900, 450, 200, 140 * radian, 330 * radian, true);
+context.fill();
+
+context.beginPath();
+context.fillStyle = "yellow";
+context.arc(900, 350, 20, 0 * radian, 360 * radian, true);
 context.fill();
