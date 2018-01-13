@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce88d8d-898f-4eb4-829a-7f97c6bbb79a" name="Default" comment="" />
+    <list default="true" id="6ce88d8d-898f-4eb4-829a-7f97c6bbb79a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/exercise2/text/canvas.js" afterPath="$PROJECT_DIR$/exercise2/text/canvas.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file leaf-file-name="canvas.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise2/text/canvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="394">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -60,9 +62,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="696" />
-    <option name="y" value="143" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="540" />
+    <option name="y" value="204" />
     <option name="width" value="876" />
     <option name="height" value="820" />
   </component>
@@ -136,15 +138,15 @@
       <workItem from="1515592243290" duration="12058000" />
       <workItem from="1515704924226" duration="2778000" />
       <workItem from="1515711553967" duration="3921000" />
-      <workItem from="1515782486512" duration="7876000" />
+      <workItem from="1515782486512" duration="9018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45796000" />
+    <option name="totallyTimeSpent" value="46938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="696" y="143" width="876" height="820" extended-state="0" />
+    <frame x="540" y="204" width="876" height="820" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24922119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -373,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise2/text/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="394">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
