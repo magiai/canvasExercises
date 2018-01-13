@@ -10,7 +10,22 @@ context.font = "50px Helvetica";
 //context.fillText(text, xCoord, yCoord, maxWidth);
 
 var fText = "Test tekst teks";
-context.fillText(fText, 400, 200);
+
+draw3DText(fText, 400, 200, "normal bold 60px Helvetica", "orange", 10);
+
+function draw3DText(text, x, y, style, color, numberOfLayers) {
+    context.font = style;
+    context.fillStyle = "blue";
+
+    for (var i = 0; i < numberOfLayers; i++) {
+        context.fillText(text, x-i, y-i);
+    }
+    context.fillStyle = color;
+    context.fillText(text, x, y);
+}
+
+
+
 
 var sText = "Nananana";
 context.strokeText(sText, 400, 300);
