@@ -1,0 +1,10 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+#chart {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
